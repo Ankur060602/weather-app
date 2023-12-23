@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+body{
+    background-image: url(2.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.49);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.4px);
+-webkit-backdrop-filter: blur(11.4px);
+height: 80vh;
+font-family: 'Poppins', sans-serif;
+}
+
+.search{
+    background: url(5.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: black;
+
+}
+
+.search h1{
+    font-size: 2rem;
+
+}
+
+input{
+    /* background: transparent; */
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px;
+    font-size: 1rem;
+    padding: .9px;
+    border: 2px solid white;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+}
+
+.data h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.conditions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.values p{
+    font-size: 15px;
+}
